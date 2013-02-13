@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.audio.luuumixradio"
+  version="1.0.0"
+  name="LuUuMix-Radio.fm"
+  provider-name="Just van BlooM">
+  <requires>
+    <import addon="xbmc.python" version="1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language></language>
+    <summary>Listen to LuUuMix-Radio.fm live in XBMC</summary>
+    <platform>all</platform>
+  </extension>
+</addon>
